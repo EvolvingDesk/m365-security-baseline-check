@@ -1,29 +1,40 @@
-# M365 Security Baseline Check
+Status, starter template
+Not production ready
 
-A lightweight script that checks basic Microsoft 365 security settings.
+# M365 Security Baseline Template
 
-Useful for IT providers and administrators who want a quick overview of tenant security posture.
+Starter template for a lightweight Microsoft 365 security baseline check.
 
-## Checks
+## Goal
 
-• MFA enabled for users  
-• Admin account overview  
+Provide a simple structure for collecting checks, producing a report, and returning exit codes.
+
+## Intended checks
+
+• MFA coverage  
+• Admin accounts review  
 • Mailbox forwarding rules  
-• External sharing configuration  
-• Mailbox auditing status  
+• External sharing settings  
+• Audit logging status  
 
-## Usage
+## Inputs
 
-Run the script with administrative credentials.
-
-Example:
-
-python m365_check.py
+Define your input method, for example manual config, exported reports, or API calls.
 
 ## Output
 
-A simple console report showing potential security issues.
+Define your report format, for example console output, JSON, or CSV.
 
-## About
+## Exit codes
 
-Created by EvolvingDesk, a managed IT and cloud infrastructure provider.
+0 ok  
+1 warning  
+2 critical  
+
+## Quick start
+
+Explain how to run the template locally.
+
+## Disclaimer
+
+This repository is a starter template and is not production ready.
